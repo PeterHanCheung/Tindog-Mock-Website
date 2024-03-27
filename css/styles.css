@@ -1,0 +1,160 @@
+/**********************************Tag Selectors****************************/
+/***********************.Class Selectors (use multiple times)***************/
+/***********************#id Selectors (use singuly)*************************/
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*title*/
+#title .container-fluid {
+  padding: 3% 15% 5%;
+  text-align: left;
+}
+
+.big-heading {
+  font-family: 'Montserrat Black', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 50px 0;
+  color: #fff;
+}
+
+/* sections */
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Nav BAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  margin: 0 20px;
+  font-size: 1.3rem;
+}
+
+/* AppBTN */
+.app-btn {
+  margin: 5% 3% 3% 0;
+}
+
+.title-img {
+  height: 70%;
+  transform: rotate(20deg);
+  margin: 50px 10%;
+  position: absolute;
+}
+
+/* features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  padding-bottom: 1rem;
+  color: #cf8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #cf8172;
+  position: static;
+  z-index: 0;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  Padding-bottom: 3%;
+  background-color: #cf8172;
+  position: static;
+  z-index: 0;
+}
+
+.press-logos {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* footer Section */
+.footer-link {
+  padding: 0 10px;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.cp {
+  padding: 2% 0 0 0;
+}
+
+/* MObile/Tablet Version */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    height: 70%;
+    margin: 50px 10%;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
